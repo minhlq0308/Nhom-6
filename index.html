@@ -10,6 +10,7 @@
     <title>Focus Admin: Creative Admin Dashboard</title>
     <!-- ================= Favicon ================== -->
     <!-- Standard -->
+    <link rel="ELK" href="https://github.com/hsen-dev/vscode-elastic.git">
     <link rel="shortcut icon" href="http://placehold.it/64.png/000/fff">
     <!-- Retina iPad Touch Icon-->
     <link rel="apple-touch-icon" sizes="144x144" href="http://placehold.it/144.png/000/fff">
@@ -31,6 +32,11 @@
     <link href="css/lib/bootstrap.min.css" rel="stylesheet">
     <link href="css/lib/helper.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
 </head>
 
 <body>
@@ -1150,7 +1156,7 @@
     <script src="js/lib/calendar-2/moment.latest.min.js"></script>
     <script src="js/lib/calendar-2/pignose.calendar.min.js"></script>
     <script src="js/lib/calendar-2/pignose.init.js"></script>
-
+    
 
     <script src="js/lib/weather/jquery.simpleWeather.min.js"></script>
     <script src="js/lib/weather/weather-init.js"></script>
@@ -1163,6 +1169,11 @@
     <script src="js/lib/owl-carousel/owl.carousel-init.js"></script>
     <!-- scripit init-->
     <script src="js/dashboard2.js"></script>
+
+    <!-- Add -->
+    <script src="elastic.js"></script>
+    <script src="connectReact.js"></script>
+    <script src="testconfig.js"></script>
 </body>
 
 </html>

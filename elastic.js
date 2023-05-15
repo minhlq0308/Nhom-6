@@ -4,5 +4,9 @@ const client = new Client({
   auth: {
     username: 'elastic',
     password: '7YYLH6tCnu7Tmv8uFSGU'
+  },
+  ssl: {
+    ca: fs.readFileSync('./cacert.pem'),
+    rejectUnauthorized: false
   }
 })
