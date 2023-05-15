@@ -13,7 +13,7 @@ fetch("dataMusic.json")
             <td>${product.author}</td>
             <td>${product.time}</td>
             <td>${product.album}</td>
-            <td>${product.countLike}</td>
+            <td>${product.countListen}</td>
          </tr>
       `;
    }
